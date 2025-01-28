@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolyo - [Adınız]</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        header p {
+            margin: 5px 0 0;
+            font-size: 1.2em;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+        section p {
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .project {
+            background-color: #fff;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            flex: 1 1 calc(33.333% - 40px);
+            box-sizing: border-box;
+        }
+        .project h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+        footer a {
+            color: #fff;
+            text-decoration: none;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mehmet ALTUN</h1>
+        <p>Web Geliştirici & Tasarımcı</p>
+    </header>
+
+    <nav>
+        <a href="#about">Hakkımda</a>
+        <a href="#projects">Projeler</a>
+        <a href="#contact">İletişim</a>
+    </nav>
+
+    <section id="about">
+        <h2>Hakkımda</h2>
+        <p>
+            Merhaba! Ben Mehmet, web geliştirme ve tasarım konusunda tutkulu bir profesyonelim. 
+            Kullanıcı dostu ve modern web siteleri oluşturmak için çeşitli teknolojiler kullanıyorum.
+        </p>
+    </section>
+
+    <section id="projects">
+        <h2>Projeler</h2>
+        <div class="projects">
+            <div class="project">
+                <h3>Proje 1</h3>
+                <p>Bu proje, modern bir web sitesi tasarımını içerir. HTML, CSS ve JavaScript kullanıldı.</p>
+            </div>
+            <div class="project">
+                <h3>Proje 2</h3>
+                <p>Bu proje, bir e-ticaret platformu için front-end geliştirme çalışmasıdır.</p>
+            </div>
+            <div class="project">
+                <h3>Proje 3</h3>
+                <p>Bu proje, bir blog sitesi tasarımı ve geliştirmesini içerir.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>İletişim</h2>
+        <p>
+            Benimle iletişime geçmek için aşağıdaki bilgileri kullanabilirsiniz:
+            <br>
+            Email: <a href="mailto:ornek@email.com">ornek@email.com</a>
+            <br>
+            LinkedIn: <a href="https://www.linkedin.com/in/ornek" target="_blank">LinkedIn Profilim</a>
+        </p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Mehmet. Tüm hakları saklıdır.</p>
+    </footer>
+
+</body>
+</html>
